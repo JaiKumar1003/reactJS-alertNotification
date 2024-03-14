@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.alert-notification-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  width: 86%;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.heading-description-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  width: 70%;
+}
+
+.error-icon {
+  align-self: center;
+  font-size: 26px;
+  width: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  .alert-notification-card {
+    width: 60%;
+  }
+}
